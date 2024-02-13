@@ -1,55 +1,50 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for <a href="https://ui.shadcn.com/">shadcn/ui</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/template/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/template?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/catppuccin/template?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/shadcn-ui/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/shadcn-ui?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/shadcn-ui/issues"><img src="https://img.shields.io/github/issues/catppuccin/shadcn-ui?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/shadcn-ui/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/shadcn-ui?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/preview.webp"/>
+	<img src="https://raw.githubusercontent.com/catppuccin/shadcn-ui/main/assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/latte.webp"/>
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/frappe.webp"/>
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/macchiato.webp"/>
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/mocha.webp"/>
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/mocha.webp"/>
 </details>
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
-
-<!-- this section is optional -->
-## 🙋 FAQ
-
--	Q: **_"Where can I find the doc?"_**\
-	A: Run `:help theme`
+1. Navigate to the src folder in this repo
+2. Go into the desired flavor
+3. Copy the contents of the desired accent
+4. Paste the contents into globals.css or the file that you've configured.
+5. Make sure you've put it into `:root`, as it isn't included. 
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [Tnixc](https://github.com/Tnixc)
 
 &nbsp;
 
