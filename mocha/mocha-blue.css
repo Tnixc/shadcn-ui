@@ -1,0 +1,31 @@
+
+--background: 240.000 21.053% 14.902%; /* mocha base */
+--foreground: 226.154 63.934% 88.039%; /* mocha text */
+
+--muted: 236.842 16.239% 22.941%; /* mocha surface0 */
+--muted-foreground: 226.667 35.294% 80.000%; /* mocha subtext1 */
+
+--popover: 240.000 21.053% 14.902%; /* mocha base */
+--popover-foreground: 226.154 63.934% 88.039%; /* mocha text */
+
+--card: 240.000 21.053% 14.902%; /* mocha base */
+--card-foreground: 226.154 63.934% 88.039%; /* mocha text */
+
+--border: 234.286 13.208% 31.176%; /* mocha surface1 */
+--input: 234.286 13.208% 31.176%; /* mocha surface1 */
+
+--primary:217.168 91.870% 75.882%; /* mocha blue */
+--primary-foreground: 240.000 21.053% 14.902%; /* mocha base */
+
+--secondary: 236.842 16.239% 22.941%; /* mocha surface0 */
+--secondary-foreground: 226.154 63.934% 88.039%; /* mocha text */
+
+--accent: 236.842 16.239% 22.941%; /* mocha surface0 */
+--accent-foreground: 226.154 63.934% 88.039%; /* mocha text */
+
+--destructive: 343.269 81.250% 74.902%; /* mocha red */
+--destructive-foreground: 240.000 21.053% 14.902%; /* mocha base */
+
+--ring: 226.154 63.934% 88.039%; /* mocha text */
+
+--radius: 0.5rem;
