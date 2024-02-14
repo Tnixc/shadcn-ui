@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Navigate to the src folder in this repo
+1. Navigate to the `dist` folder in this repo
 2. Go into the desired flavor
 3. Copy the contents of the desired accent
 4. Paste the contents into globals.css or the file that you've configured.
