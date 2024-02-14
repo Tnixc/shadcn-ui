@@ -1,32 +1,31 @@
 
---background: 229.0909090909091 0.18644067796610175% 0.23137254901960785%; /* frappe base */
---foreground: 227.2340425531915 0.7014925373134333% 0.8686274509803922%; /* frappe text */
+--foreground: 227.23 0.7% 0.87%; /* frappe text */
 
---muted: 230.00000000000003 0.15584415584415584% 0.30196078431372547%; /* frappe surface0 */
---muted-foreground: 226.66666666666669 0.43689320388349495% 0.7980392156862746%; /* frappe subtext1 */
+--muted: 230 0.16% 0.3%; /* frappe surface0 */
+--muted-foreground: 226.67 0.44% 0.8%; /* frappe subtext1 */
 
---popover: 229.0909090909091 0.18644067796610175% 0.23137254901960785%; /* frappe base */
---popover-foreground: 227.2340425531915 0.7014925373134333% 0.8686274509803922%; /* frappe text */
+--popover: 229.09 0.19% 0.23%; /* frappe base */
+--popover-foreground: 227.23 0.7% 0.87%; /* frappe text */
 
---card: 229.0909090909091 0.18644067796610175% 0.23137254901960785%; /* frappe base */
---card-foreground: 227.2340425531915 0.7014925373134333% 0.8686274509803922%; /* frappe text */
+--card: 229.09 0.19% 0.23%; /* frappe base */
+--card-foreground: 227.23 0.7% 0.87%; /* frappe text */
 
---border: 227.14285714285714 0.14736842105263157% 0.37254901960784315%; /* frappe surface1 */
---input: 227.14285714285714 0.14736842105263157% 0.37254901960784315%; /* frappe surface1 */
+--border: 227.14 0.15% 0.37%; /* frappe surface1 */
+--input: 227.14 0.15% 0.37%; /* frappe surface1 */
 
---primary:189.09090909090907 0.47826086956521735% 0.7294117647058823%; /* frappe sky */
---primary-foreground: 229.0909090909091 0.18644067796610175% 0.23137254901960785%; /* frappe base */
+--primary:189.09 0.48% 0.73%; /* frappe sky */
+--primary-foreground: 229.09 0.19% 0.23%; /* frappe base */
 
---secondary: 230.00000000000003 0.15584415584415584% 0.30196078431372547%; /* frappe surface0 */
---secondary-foreground: 227.2340425531915 0.7014925373134333% 0.8686274509803922%; /* frappe text */
+--secondary: 230 0.16% 0.3%; /* frappe surface0 */
+--secondary-foreground: 227.23 0.7% 0.87%; /* frappe text */
 
---accent: 230.00000000000003 0.15584415584415584% 0.30196078431372547%; /* frappe surface0 */
---accent-foreground: 227.2340425531915 0.7014925373134333% 0.8686274509803922%; /* frappe text */
+--accent: 230 0.16% 0.3%; /* frappe surface0 */
+--accent-foreground: 227.23 0.7% 0.87%; /* frappe text */
 
---destructive: 358.8118811881188 0.6778523489932885% 0.7078431372549019%; /* frappe red */
---destructive-foreground: 230.52631578947367 0.18811881188118806% 0.19803921568627453%; /* frappe mantle */
+--destructive: 358.81 0.68% 0.71%; /* frappe red */
+--destructive-foreground: 230.53 0.19% 0.2%; /* frappe mantle */
 
---ring: 227.2340425531915 0.7014925373134333% 0.8686274509803922%; /* frappe text */
+--ring: 227.23 0.7% 0.87%; /* frappe text */
 
 --radius: 0.5rem;
         
