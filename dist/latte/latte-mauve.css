@@ -1,31 +1,32 @@
 
---foreground: 233.79 0.16% 0.35%; /* latte text */
+--background: 220 0.231% 0.949%; /* latte base */
+--foreground: 233.793 0.16% 0.355%; /* latte text */
 
---muted: 222.86 0.16% 0.83%; /* latte surface0 */
---muted-foreground: 233.33 0.13% 0.41%; /* latte subtext1 */
+--muted: 222.857 0.159% 0.827%; /* latte surface0 */
+--muted-foreground: 233.333 0.128% 0.414%; /* latte subtext1 */
 
---popover: 220 0.23% 0.95%; /* latte base */
---popover-foreground: 233.79 0.16% 0.35%; /* latte text */
+--popover: 220 0.231% 0.949%; /* latte base */
+--popover-foreground: 233.793 0.16% 0.355%; /* latte text */
 
---card: 220 0.23% 0.95%; /* latte base */
---card-foreground: 233.79 0.16% 0.35%; /* latte text */
+--card: 220 0.231% 0.949%; /* latte base */
+--card-foreground: 233.793 0.16% 0.355%; /* latte text */
 
---border: 225 0.14% 0.77%; /* latte surface1 */
---input: 225 0.14% 0.77%; /* latte surface1 */
+--border: 225 0.136% 0.769%; /* latte surface1 */
+--input: 225 0.136% 0.769%; /* latte surface1 */
 
---primary:266.04 0.85% 0.58%; /* latte mauve */
---primary-foreground: 220 0.23% 0.95%; /* latte base */
+--primary:266.044 0.85% 0.58%; /* latte mauve */
+--primary-foreground: 220 0.231% 0.949%; /* latte base */
 
---secondary: 222.86 0.16% 0.83%; /* latte surface0 */
---secondary-foreground: 233.79 0.16% 0.35%; /* latte text */
+--secondary: 222.857 0.159% 0.827%; /* latte surface0 */
+--secondary-foreground: 233.793 0.16% 0.355%; /* latte text */
 
---accent: 222.86 0.16% 0.83%; /* latte surface0 */
---accent-foreground: 233.79 0.16% 0.35%; /* latte text */
+--accent: 222.857 0.159% 0.827%; /* latte surface0 */
+--accent-foreground: 233.793 0.16% 0.355%; /* latte text */
 
---destructive: 347.08 0.87% 0.44%; /* latte red */
+--destructive: 347.077 0.867% 0.441%; /* latte red */
 --destructive-foreground: 220 0.22% 0.92%; /* latte mantle */
 
---ring: 233.79 0.16% 0.35%; /* latte text */
+--ring: 233.793 0.16% 0.355%; /* latte text */
 
 --radius: 0.5rem;
         

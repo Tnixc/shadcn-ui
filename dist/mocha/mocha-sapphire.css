@@ -1,31 +1,32 @@
 
---foreground: 226.15 0.64% 0.88%; /* mocha text */
+--background: 240 0.211% 0.149%; /* mocha base */
+--foreground: 226.154 0.639% 0.88%; /* mocha text */
 
---muted: 236.84 0.16% 0.23%; /* mocha surface0 */
---muted-foreground: 226.67 0.35% 0.8%; /* mocha subtext1 */
+--muted: 236.842 0.162% 0.229%; /* mocha surface0 */
+--muted-foreground: 226.667 0.353% 0.8%; /* mocha subtext1 */
 
---popover: 240 0.21% 0.15%; /* mocha base */
---popover-foreground: 226.15 0.64% 0.88%; /* mocha text */
+--popover: 240 0.211% 0.149%; /* mocha base */
+--popover-foreground: 226.154 0.639% 0.88%; /* mocha text */
 
---card: 240 0.21% 0.15%; /* mocha base */
---card-foreground: 226.15 0.64% 0.88%; /* mocha text */
+--card: 240 0.211% 0.149%; /* mocha base */
+--card-foreground: 226.154 0.639% 0.88%; /* mocha text */
 
---border: 234.29 0.13% 0.31%; /* mocha surface1 */
---input: 234.29 0.13% 0.31%; /* mocha surface1 */
+--border: 234.286 0.132% 0.312%; /* mocha surface1 */
+--input: 234.286 0.132% 0.312%; /* mocha surface1 */
 
---primary:198.5 0.76% 0.69%; /* mocha sapphire */
---primary-foreground: 240 0.21% 0.15%; /* mocha base */
+--primary:198.5 0.759% 0.69%; /* mocha sapphire */
+--primary-foreground: 240 0.211% 0.149%; /* mocha base */
 
---secondary: 236.84 0.16% 0.23%; /* mocha surface0 */
---secondary-foreground: 226.15 0.64% 0.88%; /* mocha text */
+--secondary: 236.842 0.162% 0.229%; /* mocha surface0 */
+--secondary-foreground: 226.154 0.639% 0.88%; /* mocha text */
 
---accent: 236.84 0.16% 0.23%; /* mocha surface0 */
---accent-foreground: 226.15 0.64% 0.88%; /* mocha text */
+--accent: 236.842 0.162% 0.229%; /* mocha surface0 */
+--accent-foreground: 226.154 0.639% 0.88%; /* mocha text */
 
---destructive: 343.27 0.81% 0.75%; /* mocha red */
---destructive-foreground: 240 0.21% 0.12%; /* mocha mantle */
+--destructive: 343.269 0.812% 0.749%; /* mocha red */
+--destructive-foreground: 240 0.213% 0.12%; /* mocha mantle */
 
---ring: 226.15 0.64% 0.88%; /* mocha text */
+--ring: 226.154 0.639% 0.88%; /* mocha text */
 
 --radius: 0.5rem;
         

@@ -12,33 +12,34 @@ for (const [flavor, colors] of flavorEntries) {
       Bun.write(
         `./dist/${flavor}/${flavor}-${accent}.css`,
         `
---foreground: ${Math.round(colors.colors.text.hsl.h * 100) / 100} ${Math.round(colors.colors.text.hsl.s * 100) / 100}% ${Math.round(colors.colors.text.hsl.l * 100) / 100}%; /* ${flavor} text */
+--background: ${+colors.colors.base.hsl.h.toFixed(3)} ${+colors.colors.base.hsl.s.toFixed(3)}% ${+colors.colors.base.hsl.l.toFixed(3)}%; /* ${flavor} base */
+--foreground: ${+colors.colors.text.hsl.h.toFixed(3)} ${+colors.colors.text.hsl.s.toFixed(3)}% ${+colors.colors.text.hsl.l.toFixed(3)}%; /* ${flavor} text */
 
---muted: ${Math.round(colors.colors.surface0.hsl.h * 100) / 100} ${Math.round(colors.colors.surface0.hsl.s * 100) / 100}% ${Math.round(colors.colors.surface0.hsl.l * 100) / 100}%; /* ${flavor} surface0 */
---muted-foreground: ${Math.round(colors.colors.subtext1.hsl.h * 100) / 100} ${Math.round(colors.colors.subtext1.hsl.s * 100) / 100}% ${Math.round(colors.colors.subtext1.hsl.l * 100) / 100}%; /* ${flavor} subtext1 */
+--muted: ${+colors.colors.surface0.hsl.h.toFixed(3)} ${+colors.colors.surface0.hsl.s.toFixed(3)}% ${+colors.colors.surface0.hsl.l.toFixed(3)}%; /* ${flavor} surface0 */
+--muted-foreground: ${+colors.colors.subtext1.hsl.h.toFixed(3)} ${+colors.colors.subtext1.hsl.s.toFixed(3)}% ${+colors.colors.subtext1.hsl.l.toFixed(3)}%; /* ${flavor} subtext1 */
 
---popover: ${Math.round(colors.colors.base.hsl.h * 100) / 100} ${Math.round(colors.colors.base.hsl.s * 100) / 100}% ${Math.round(colors.colors.base.hsl.l * 100) / 100}%; /* ${flavor} base */
---popover-foreground: ${Math.round(colors.colors.text.hsl.h * 100) / 100} ${Math.round(colors.colors.text.hsl.s * 100) / 100}% ${Math.round(colors.colors.text.hsl.l * 100) / 100}%; /* ${flavor} text */
+--popover: ${+colors.colors.base.hsl.h.toFixed(3)} ${+colors.colors.base.hsl.s.toFixed(3)}% ${+colors.colors.base.hsl.l.toFixed(3)}%; /* ${flavor} base */
+--popover-foreground: ${+colors.colors.text.hsl.h.toFixed(3)} ${+colors.colors.text.hsl.s.toFixed(3)}% ${+colors.colors.text.hsl.l.toFixed(3)}%; /* ${flavor} text */
 
---card: ${Math.round(colors.colors.base.hsl.h * 100) / 100} ${Math.round(colors.colors.base.hsl.s * 100) / 100}% ${Math.round(colors.colors.base.hsl.l * 100) / 100}%; /* ${flavor} base */
---card-foreground: ${Math.round(colors.colors.text.hsl.h * 100) / 100} ${Math.round(colors.colors.text.hsl.s * 100) / 100}% ${Math.round(colors.colors.text.hsl.l * 100) / 100}%; /* ${flavor} text */
+--card: ${+colors.colors.base.hsl.h.toFixed(3)} ${+colors.colors.base.hsl.s.toFixed(3)}% ${+colors.colors.base.hsl.l.toFixed(3)}%; /* ${flavor} base */
+--card-foreground: ${+colors.colors.text.hsl.h.toFixed(3)} ${+colors.colors.text.hsl.s.toFixed(3)}% ${+colors.colors.text.hsl.l.toFixed(3)}%; /* ${flavor} text */
 
---border: ${Math.round(colors.colors.surface1.hsl.h * 100) / 100} ${Math.round(colors.colors.surface1.hsl.s * 100) / 100}% ${Math.round(colors.colors.surface1.hsl.l * 100) / 100}%; /* ${flavor} surface1 */
---input: ${Math.round(colors.colors.surface1.hsl.h * 100) / 100} ${Math.round(colors.colors.surface1.hsl.s * 100) / 100}% ${Math.round(colors.colors.surface1.hsl.l * 100) / 100}%; /* ${flavor} surface1 */
+--border: ${+colors.colors.surface1.hsl.h.toFixed(3)} ${+colors.colors.surface1.hsl.s.toFixed(3)}% ${+colors.colors.surface1.hsl.l.toFixed(3)}%; /* ${flavor} surface1 */
+--input: ${+colors.colors.surface1.hsl.h.toFixed(3)} ${+colors.colors.surface1.hsl.s.toFixed(3)}% ${+colors.colors.surface1.hsl.l.toFixed(3)}%; /* ${flavor} surface1 */
 
---primary:${Math.round(colors.colors[accent].hsl.h * 100) / 100} ${Math.round(colors.colors[accent].hsl.s * 100) / 100}% ${Math.round(colors.colors[accent].hsl.l * 100) / 100}%; /* ${flavor} ${accent} */
---primary-foreground: ${Math.round(colors.colors.base.hsl.h * 100) / 100} ${Math.round(colors.colors.base.hsl.s * 100) / 100}% ${Math.round(colors.colors.base.hsl.l * 100) / 100}%; /* ${flavor} base */
+--primary:${+colors.colors[accent].hsl.h.toFixed(3)} ${+colors.colors[accent].hsl.s.toFixed(3)}% ${+colors.colors[accent].hsl.l.toFixed(3)}%; /* ${flavor} ${accent} */
+--primary-foreground: ${+colors.colors.base.hsl.h.toFixed(3)} ${+colors.colors.base.hsl.s.toFixed(3)}% ${+colors.colors.base.hsl.l.toFixed(3)}%; /* ${flavor} base */
 
---secondary: ${Math.round(colors.colors.surface0.hsl.h * 100) / 100} ${Math.round(colors.colors.surface0.hsl.s * 100) / 100}% ${Math.round(colors.colors.surface0.hsl.l * 100) / 100}%; /* ${flavor} surface0 */
---secondary-foreground: ${Math.round(colors.colors.text.hsl.h * 100) / 100} ${Math.round(colors.colors.text.hsl.s * 100) / 100}% ${Math.round(colors.colors.text.hsl.l * 100) / 100}%; /* ${flavor} text */
+--secondary: ${+colors.colors.surface0.hsl.h.toFixed(3)} ${+colors.colors.surface0.hsl.s.toFixed(3)}% ${+colors.colors.surface0.hsl.l.toFixed(3)}%; /* ${flavor} surface0 */
+--secondary-foreground: ${+colors.colors.text.hsl.h.toFixed(3)} ${+colors.colors.text.hsl.s.toFixed(3)}% ${+colors.colors.text.hsl.l.toFixed(3)}%; /* ${flavor} text */
 
---accent: ${Math.round(colors.colors.surface0.hsl.h * 100) / 100} ${Math.round(colors.colors.surface0.hsl.s * 100) / 100}% ${Math.round(colors.colors.surface0.hsl.l * 100) / 100}%; /* ${flavor} surface0 */
---accent-foreground: ${Math.round(colors.colors.text.hsl.h * 100) / 100} ${Math.round(colors.colors.text.hsl.s * 100) / 100}% ${Math.round(colors.colors.text.hsl.l * 100) / 100}%; /* ${flavor} text */
+--accent: ${+colors.colors.surface0.hsl.h.toFixed(3)} ${+colors.colors.surface0.hsl.s.toFixed(3)}% ${+colors.colors.surface0.hsl.l.toFixed(3)}%; /* ${flavor} surface0 */
+--accent-foreground: ${+colors.colors.text.hsl.h.toFixed(3)} ${+colors.colors.text.hsl.s.toFixed(3)}% ${+colors.colors.text.hsl.l.toFixed(3)}%; /* ${flavor} text */
 
---destructive: ${Math.round(colors.colors.red.hsl.h * 100) / 100} ${Math.round(colors.colors.red.hsl.s * 100) / 100}% ${Math.round(colors.colors.red.hsl.l * 100) / 100}%; /* ${flavor} red */
---destructive-foreground: ${Math.round(colors.colors.mantle.hsl.h * 100) / 100} ${Math.round(colors.colors.mantle.hsl.s * 100) / 100}% ${Math.round(colors.colors.mantle.hsl.l * 100) / 100}%; /* ${flavor} mantle */
+--destructive: ${+colors.colors.red.hsl.h.toFixed(3)} ${+colors.colors.red.hsl.s.toFixed(3)}% ${+colors.colors.red.hsl.l.toFixed(3)}%; /* ${flavor} red */
+--destructive-foreground: ${+colors.colors.mantle.hsl.h.toFixed(3)} ${+colors.colors.mantle.hsl.s.toFixed(3)}% ${+colors.colors.mantle.hsl.l.toFixed(3)}%; /* ${flavor} mantle */
 
---ring: ${Math.round(colors.colors.text.hsl.h * 100) / 100} ${Math.round(colors.colors.text.hsl.s * 100) / 100}% ${Math.round(colors.colors.text.hsl.l * 100) / 100}%; /* ${flavor} text */
+--ring: ${+colors.colors.text.hsl.h.toFixed(3)} ${+colors.colors.text.hsl.s.toFixed(3)}% ${+colors.colors.text.hsl.l.toFixed(3)}%; /* ${flavor} text */
 
 --radius: 0.5rem;
         `
