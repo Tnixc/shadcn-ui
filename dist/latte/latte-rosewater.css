@@ -1,32 +1,32 @@
 
---background: 220 0.231% 0.949%; /* latte base */
---foreground: 233.793 0.16% 0.355%; /* latte text */
+--background: 220 23.077% 94.902%; /* latte base */
+--foreground: 233.793 16.022% 35.490%; /* latte text */
 
---muted: 222.857 0.159% 0.827%; /* latte surface0 */
---muted-foreground: 233.333 0.128% 0.414%; /* latte subtext1 */
+--muted: 222.857 15.909% 82.745%; /* latte surface0 */
+--muted-foreground: 233.333 12.796% 41.373%; /* latte subtext1 */
 
---popover: 220 0.231% 0.949%; /* latte base */
---popover-foreground: 233.793 0.16% 0.355%; /* latte text */
+--popover: 220 23.077% 94.902%; /* latte base */
+--popover-foreground: 233.793 16.022% 35.490%; /* latte text */
 
---card: 220 0.231% 0.949%; /* latte base */
---card-foreground: 233.793 0.16% 0.355%; /* latte text */
+--card: 220 23.077% 94.902%; /* latte base */
+--card-foreground: 233.793 16.022% 35.490%; /* latte text */
 
---border: 225 0.136% 0.769%; /* latte surface1 */
---input: 225 0.136% 0.769%; /* latte surface1 */
+--border: 225 13.559% 76.863%; /* latte surface1 */
+--input: 225 13.559% 76.863%; /* latte surface1 */
 
---primary:10.8 0.588% 0.667%; /* latte rosewater */
---primary-foreground: 220 0.231% 0.949%; /* latte base */
+--primary:10.8 58.824% 66.667%; /* latte rosewater */
+--primary-foreground: 220 23.077% 94.902%; /* latte base */
 
---secondary: 222.857 0.159% 0.827%; /* latte surface0 */
---secondary-foreground: 233.793 0.16% 0.355%; /* latte text */
+--secondary: 222.857 15.909% 82.745%; /* latte surface0 */
+--secondary-foreground: 233.793 16.022% 35.490%; /* latte text */
 
---accent: 222.857 0.159% 0.827%; /* latte surface0 */
---accent-foreground: 233.793 0.16% 0.355%; /* latte text */
+--accent: 222.857 15.909% 82.745%; /* latte surface0 */
+--accent-foreground: 233.793 16.022% 35.490%; /* latte text */
 
---destructive: 347.077 0.867% 0.441%; /* latte red */
---destructive-foreground: 220 0.22% 0.92%; /* latte mantle */
+--destructive: 347.077 86.667% 44.118%; /* latte red */
+--destructive-foreground: 220 21.951% 91.961%; /* latte mantle */
 
---ring: 233.793 0.16% 0.355%; /* latte text */
+--ring: 233.793 16.022% 35.490%; /* latte text */
 
 --radius: 0.5rem;
         
