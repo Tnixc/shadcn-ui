@@ -36,10 +36,10 @@
 
 ## Usage
 
-1. Navigate to the `dist` folder in this repo
-2. Go into the desired flavor
-3. Copy the contents of the desired accent
-4. Paste the contents into globals.css or the file that you've configured.
+1. Navigate to the `themes` folder of this repository.
+2. Enter the directory of your desired flavor.
+3. Copy the contents of the desired accent.
+4. Paste the contents into `globals.css` or the file that you've configured.
 5. Make sure you've put it into `:root` or `.dark`, as it isn't included. 
 
 ## 💝 Thanks to
