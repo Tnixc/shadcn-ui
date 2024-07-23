@@ -45,6 +45,14 @@ for (const [flavor, colors] of flavorEntries) {
 --ring: ${+colors.colors.text.hsl.h.toFixed(3)} ${(+colors.colors.text.hsl.s * 100).toFixed(3)}% ${(+colors.colors.text.hsl.l * 100).toFixed(3)}%; /* text */
 
 --radius: 0.5rem;
+
+--chart-1: ${+colors.colors.red.hsl.h.toFixed(3)} ${(+colors.colors.red.hsl.s * 100).toFixed(3)}% ${(+colors.colors.red.hsl.l * 100).toFixed(3)}%; /* red */
+--chart-2: ${+colors.colors.teal.hsl.h.toFixed(3)} ${(+colors.colors.teal.hsl.s * 100).toFixed(3)}% ${(+colors.colors.teal.hsl.l * 100).toFixed(3)}%; /* teal */
+--chart-3: ${+colors.colors.blue.hsl.h.toFixed(3)} ${(+colors.colors.blue.hsl.s * 100).toFixed(3)}% ${(+colors.colors.blue.hsl.l * 100).toFixed(3)}%; /* blue */
+--chart-4: ${+colors.colors.yellow.hsl.h.toFixed(3)} ${(+colors.colors.yellow.hsl.s * 100).toFixed(3)}% ${(+colors.colors.yellow.hsl.l * 100).toFixed(3)}%; /* yellow */
+--chart-5: ${+colors.colors.green.hsl.h.toFixed(3)} ${(+colors.colors.green.hsl.s * 100).toFixed(3)}% ${(+colors.colors.green.hsl.l * 100).toFixed(3)}%; /* green */
+
+
       `.trim(),
     );
   }
