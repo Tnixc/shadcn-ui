@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/shadcn-ui/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/shadcn-ui?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/shadcn-ui/issues"><img src="https://img.shields.io/github/issues/catppuccin/shadcn-ui?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/shadcn-ui/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/shadcn-ui?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/tnixc/shadcn-ui/stargazers"><img src="https://img.shields.io/github/stars/tnixc/shadcn-ui?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/tnixc/shadcn-ui/issues"><img src="https://img.shields.io/github/issues/tnixc/shadcn-ui?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/tnixc/shadcn-ui/contributors"><img src="https://img.shields.io/github/contributors/tnixc/shadcn-ui?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@
 2. Enter the directory of your desired flavor.
 3. Copy the contents of the desired accent.
 4. Paste the contents into `globals.css` or the file that you've configured.
-5. Make sure you've put it into `:root` or `.dark`, as it isn't included. 
+5. Make sure you've put it into `:root` or `.dark`, as it isn't included.
 
 ## 💝 Thanks to
 
