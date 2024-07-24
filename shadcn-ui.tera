@@ -1,0 +1,44 @@
+---
+whiskers:
+  version: 2.0.0
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/{{flavor.identifier}}/{{flavor.identifier}}-{{accent}}.css"
+---
+--background: {{base.hsl.h}} {{base.hsl.s}}% {{base.hsl.l}}%; /* base */
+--foreground: {{text.hsl.h}} {{text.hsl.s}}% {{text.hsl.l}}%; /* text */
+
+--muted: {{surface0.hsl.h}} {{surface0.hsl.s}}% {{surface0.hsl.l}}%; /* surface0 */
+--muted-foreground: {{subtext1.hsl.h}} {{subtext1.hsl.s}}% {{subtext1.hsl.l}}%; /* subtext1 */
+
+--popover: {{base.hsl.h}} {{base.hsl.s}}% {{base.hsl.l}}%; /* base */
+--popover-foreground: {{text.hsl.h}} {{text.hsl.s}}% {{text.hsl.l}}%; /* text */
+
+--card: {{base.hsl.h}} {{base.hsl.s}}% {{base.hsl.l}}%; /* base */
+--card-foreground: {{text.hsl.h}} {{text.hsl.s}}% {{text.hsl.l}}%; /* text */
+
+--border: {{surface1.hsl.h}} {{surface1.hsl.s}}% {{surface1.hsl.l}}%; /* surface1 */
+--input: {{surface1.hsl.h}} {{surface1.hsl.s}}% {{surface1.hsl.l}}%; /* surface1 */
+
+--primary: {{flavor.colors[accent].hsl.h}} {{flavor.colors[accent].hsl.s}}% {{flavor.colors[accent].hsl.l}}%; /* accent - {{flavor.colors[accent].name}} */
+--primary-foreground: {{base.hsl.h}} {{base.hsl.s}}% {{base.hsl.l}}%; /* base */
+
+--secondary: {{surface0.hsl.h}} {{surface0.hsl.s}}% {{surface0.hsl.l}}%; /* surface0 */
+--secondary-foreground: {{text.hsl.h}} {{text.hsl.s}}% {{text.hsl.l}}%; /* text */
+
+--accent: {{surface0.hsl.h}} {{surface0.hsl.s}}% {{surface0.hsl.l}}%; /* surface0 */
+--accent-foreground: {{text.hsl.h}} {{text.hsl.s}}% {{text.hsl.l}}%; /* text */
+
+--destructive: {{red.hsl.h}} {{red.hsl.s}}% {{red.hsl.l}}%; /* red */
+--destructive-foreground: {{mantle.hsl.h}} {{mantle.hsl.s}}% {{mantle.hsl.l}}%; /* mantle */
+
+--ring: {{text.hsl.h}} {{text.hsl.s}}% {{text.hsl.l}}%; /* text */
+
+--radius: 0.5rem;
+
+--chart-1: {{red.hsl.h}} {{red.hsl.s}}% {{red.hsl.l}}%; /* red */
+--chart-2: {{teal.hsl.h}} {{teal.hsl.s}}% {{teal.hsl.l}}%; /* teal */
+--chart-3: {{blue.hsl.h}} {{blue.hsl.s}}% {{blue.hsl.l}}%; /* blue */
+--chart-4: {{yellow.hsl.h}} {{yellow.hsl.s}}% {{yellow.hsl.l}}%; /* yellow */
+--chart-5: {{green.hsl.h}} {{green.hsl.s}}% {{green.hsl.l}}%; /* green */
