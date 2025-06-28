@@ -6,39 +6,35 @@ whiskers:
     - accent
   filename: "themes/{{flavor.identifier}}/{{flavor.identifier}}-{{accent}}.css"
 ---
+--radius: 0.625rem;
 --background: {{base.hsl.h}} {{base.hsl.s * 100}}% {{base.hsl.l * 100}}%; /* base */
 --foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
-
---muted: {{surface0.hsl.h}} {{surface0.hsl.s * 100}}% {{surface0.hsl.l * 100}}%; /* surface0 */
---muted-foreground: {{subtext1.hsl.h}} {{subtext1.hsl.s * 100}}% {{subtext1.hsl.l * 100}}%; /* subtext1 */
-
---popover: {{base.hsl.h}} {{base.hsl.s * 100}}% {{base.hsl.l * 100}}%; /* base */
---popover-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
-
 --card: {{base.hsl.h}} {{base.hsl.s * 100}}% {{base.hsl.l * 100}}%; /* base */
 --card-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
-
---border: {{surface1.hsl.h}} {{surface1.hsl.s * 100}}% {{surface1.hsl.l * 100}}%; /* surface1 */
---input: {{surface1.hsl.h}} {{surface1.hsl.s * 100}}% {{surface1.hsl.l * 100}}%; /* surface1 */
-
+--popover: {{base.hsl.h}} {{base.hsl.s * 100}}% {{base.hsl.l * 100}}%; /* base */
+--popover-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
 --primary: {{flavor.colors[accent].hsl.h}} {{flavor.colors[accent].hsl.s * 100}}% {{flavor.colors[accent].hsl.l * 100}}%; /* accent - {{flavor.colors[accent].name}} */
 --primary-foreground: {{base.hsl.h}} {{base.hsl.s * 100}}% {{base.hsl.l * 100}}%; /* base */
-
 --secondary: {{surface0.hsl.h}} {{surface0.hsl.s * 100}}% {{surface0.hsl.l * 100}}%; /* surface0 */
 --secondary-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
-
+--muted: {{surface0.hsl.h}} {{surface0.hsl.s * 100}}% {{surface0.hsl.l * 100}}%; /* surface0 */
+--muted-foreground: {{subtext1.hsl.h}} {{subtext1.hsl.s * 100}}% {{subtext1.hsl.l * 100}}%; /* subtext1 */
 --accent: {{surface0.hsl.h}} {{surface0.hsl.s * 100}}% {{surface0.hsl.l * 100}}%; /* surface0 */
 --accent-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
-
 --destructive: {{red.hsl.h}} {{red.hsl.s * 100}}% {{red.hsl.l * 100}}%; /* red */
---destructive-foreground: {{mantle.hsl.h}} {{mantle.hsl.s * 100}}% {{mantle.hsl.l * 100}}%; /* mantle */
-
+--border: {{surface1.hsl.h}} {{surface1.hsl.s * 100}}% {{surface1.hsl.l * 100}}%; /* surface1 */
+--input: {{surface1.hsl.h}} {{surface1.hsl.s * 100}}% {{surface1.hsl.l * 100}}%; /* surface1 */
 --ring: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
-
---radius: 0.5rem;
-
 --chart-1: {{red.hsl.h}} {{red.hsl.s * 100}}% {{red.hsl.l * 100}}%; /* red */
 --chart-2: {{teal.hsl.h}} {{teal.hsl.s * 100}}% {{teal.hsl.l * 100}}%; /* teal */
 --chart-3: {{blue.hsl.h}} {{blue.hsl.s * 100}}% {{blue.hsl.l * 100}}%; /* blue */
 --chart-4: {{yellow.hsl.h}} {{yellow.hsl.s * 100}}% {{yellow.hsl.l * 100}}%; /* yellow */
 --chart-5: {{green.hsl.h}} {{green.hsl.s * 100}}% {{green.hsl.l * 100}}%; /* green */
+--sidebar: {{mantle.hsl.h}} {{mantle.hsl.s * 100}}% {{mantle.hsl.l * 100}}%; /* mantle */
+--sidebar-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
+--sidebar-primary: {{flavor.colors[accent].hsl.h}} {{flavor.colors[accent].hsl.s * 100}}% {{flavor.colors[accent].hsl.l * 100}}%; /* accent - {{flavor.colors[accent].name}} */
+--sidebar-primary-foreground: {{base.hsl.h}} {{base.hsl.s * 100}}% {{base.hsl.l * 100}}%; /* base */
+--sidebar-accent: {{surface0.hsl.h}} {{surface0.hsl.s * 100}}% {{surface0.hsl.l * 100}}%; /* surface0 */
+--sidebar-accent-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
+--sidebar-border: {{surface1.hsl.h}} {{surface1.hsl.s * 100}}% {{surface1.hsl.l * 100}}%; /* surface1 */
+--sidebar-ring: {{surface1.hsl.h}} {{surface1.hsl.s * 100}}% {{surface1.hsl.l * 100}}%; /* surface1 */
