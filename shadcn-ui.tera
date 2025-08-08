@@ -7,7 +7,7 @@ whiskers:
   filename: "themes/{{flavor.identifier}}/{{flavor.identifier}}-{{accent}}.css"
 ---
 {% macro hsl(color) %}{{color.hsl.h}} {{color.hsl.s * 100 | trunc(places=2)}}% {{color.hsl.l * 100 | trunc(places=2)}}%{% endmacro input %}
-{% macro graph_color(color) %} {%set c = color | mix(color=base, amount=0.4) | get(key="hsl") %} {{c.h}} {{c.s | trunc(places=2)}}% {{c.l | trunc(places=2)}}%{% endmacro input %}
+{% macro graph_color(color) %} {%set c = color | mix(color=base, amount=0.4) | get(key="hsl") %} {{c.h}} {{c.s * 100 | trunc(places=2)}}% {{c.l * 100 | trunc(places=2)}}%{% endmacro input %}
 --radius: 0.625rem;
 --background: {{self::hsl(color=base)}}; /* base */
 --foreground: {{self::hsl(color=text)}}; /* text */
