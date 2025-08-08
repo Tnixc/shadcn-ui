@@ -6,35 +6,37 @@ whiskers:
     - accent
   filename: "themes/{{flavor.identifier}}/{{flavor.identifier}}-{{accent}}.css"
 ---
+{% macro hsl(color) %}{{color.hsl.h}} {{color.hsl.s * 100 | trunc(places=2)}}% {{color.hsl.l * 100 | trunc(places=2)}}%{% endmacro input %}
+{% macro graph_color(color) %} {%set c = color | mix(color=base, amount=0.4) | get(key="hsl") %} {{c.h}} {{c.s | trunc(places=2)}}% {{c.l | trunc(places=2)}}%{% endmacro input %}
 --radius: 0.625rem;
---background: {{base.hsl.h}} {{base.hsl.s * 100}}% {{base.hsl.l * 100}}%; /* base */
---foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
---card: {{base.hsl.h}} {{base.hsl.s * 100}}% {{base.hsl.l * 100}}%; /* base */
---card-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
---popover: {{base.hsl.h}} {{base.hsl.s * 100}}% {{base.hsl.l * 100}}%; /* base */
---popover-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
---primary: {{flavor.colors[accent].hsl.h}} {{flavor.colors[accent].hsl.s * 100}}% {{flavor.colors[accent].hsl.l * 100}}%; /* accent - {{flavor.colors[accent].name}} */
---primary-foreground: {{base.hsl.h}} {{base.hsl.s * 100}}% {{base.hsl.l * 100}}%; /* base */
---secondary: {{surface0.hsl.h}} {{surface0.hsl.s * 100}}% {{surface0.hsl.l * 100}}%; /* surface0 */
---secondary-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
---muted: {{surface0.hsl.h}} {{surface0.hsl.s * 100}}% {{surface0.hsl.l * 100}}%; /* surface0 */
---muted-foreground: {{subtext1.hsl.h}} {{subtext1.hsl.s * 100}}% {{subtext1.hsl.l * 100}}%; /* subtext1 */
---accent: {{surface0.hsl.h}} {{surface0.hsl.s * 100}}% {{surface0.hsl.l * 100}}%; /* surface0 */
---accent-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
---destructive: {{red.hsl.h}} {{red.hsl.s * 100}}% {{red.hsl.l * 100}}%; /* red */
---border: {{surface1.hsl.h}} {{surface1.hsl.s * 100}}% {{surface1.hsl.l * 100}}%; /* surface1 */
---input: {{surface1.hsl.h}} {{surface1.hsl.s * 100}}% {{surface1.hsl.l * 100}}%; /* surface1 */
---ring: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
---chart-1: {{red.hsl.h}} {{red.hsl.s * 100}}% {{red.hsl.l * 100}}%; /* red */
---chart-2: {{teal.hsl.h}} {{teal.hsl.s * 100}}% {{teal.hsl.l * 100}}%; /* teal */
---chart-3: {{blue.hsl.h}} {{blue.hsl.s * 100}}% {{blue.hsl.l * 100}}%; /* blue */
---chart-4: {{yellow.hsl.h}} {{yellow.hsl.s * 100}}% {{yellow.hsl.l * 100}}%; /* yellow */
---chart-5: {{green.hsl.h}} {{green.hsl.s * 100}}% {{green.hsl.l * 100}}%; /* green */
---sidebar: {{mantle.hsl.h}} {{mantle.hsl.s * 100}}% {{mantle.hsl.l * 100}}%; /* mantle */
---sidebar-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
---sidebar-primary: {{flavor.colors[accent].hsl.h}} {{flavor.colors[accent].hsl.s * 100}}% {{flavor.colors[accent].hsl.l * 100}}%; /* accent - {{flavor.colors[accent].name}} */
---sidebar-primary-foreground: {{base.hsl.h}} {{base.hsl.s * 100}}% {{base.hsl.l * 100}}%; /* base */
---sidebar-accent: {{surface0.hsl.h}} {{surface0.hsl.s * 100}}% {{surface0.hsl.l * 100}}%; /* surface0 */
---sidebar-accent-foreground: {{text.hsl.h}} {{text.hsl.s * 100}}% {{text.hsl.l * 100}}%; /* text */
---sidebar-border: {{surface1.hsl.h}} {{surface1.hsl.s * 100}}% {{surface1.hsl.l * 100}}%; /* surface1 */
---sidebar-ring: {{surface1.hsl.h}} {{surface1.hsl.s * 100}}% {{surface1.hsl.l * 100}}%; /* surface1 */
+--background: {{self::hsl(color=base)}}; /* base */
+--foreground: {{self::hsl(color=text)}}; /* text */
+--card: {{self::hsl(color=base)}}; /* base */
+--card-foreground: {{self::hsl(color=text)}}; /* text */
+--popover: {{self::hsl(color=base)}}; /* base */
+--popover-foreground: {{self::hsl(color=text)}}; /* text */
+--primary: {{flavor.colors[accent].hsl.h}} {{flavor.colors[accent].hsl.s * 100 | trunc(places=2)}}% {{flavor.colors[accent].hsl.l * 100 | trunc(places=2)}}%; /* accent - {{flavor.colors[accent].name}} */
+--primary-foreground: {{self::hsl(color=base)}}; /* base */
+--secondary: {{self::hsl(color=surface0)}}; /* surface0 */
+--secondary-foreground: {{self::hsl(color=text)}}; /* text */
+--muted: {{self::hsl(color=surface0)}}; /* surface0 */
+--muted-foreground: {{self::hsl(color=subtext1)}}; /* subtext1 */
+--accent: {{self::hsl(color=surface0)}}; /* surface0 */
+--accent-foreground: {{self::hsl(color=text)}}; /* text */
+--destructive: {{self::hsl(color=red)}}; /* red */
+--border: {{self::hsl(color=surface1)}}; /* surface1 */
+--input: {{self::hsl(color=surface1)}}; /* surface1 */
+--ring: {{self::hsl(color=text)}}; /* text */
+--chart-1: {{self::graph_color(color=red)}}; /* red */
+--chart-2: {{self::graph_color(color=teal)}}; /* teal */
+--chart-3: {{self::graph_color(color=blue)}}; /* blue */
+--chart-4: {{self::graph_color(color=yellow)}}; /* yellow */
+--chart-5: {{self::graph_color(color=green)}}; /* green */
+--sidebar: {{self::graph_color(color=mantle)}}; /* mantle */
+--sidebar-foreground: {{self::hsl(color=text)}}; /* text */
+--sidebar-primary: {{flavor.colors[accent].hsl.h}} {{flavor.colors[accent].hsl.s * 100 | trunc(places=2)}}% {{flavor.colors[accent].hsl.l * 100 | trunc(places=2)}}%; /* accent - {{flavor.colors[accent].name}} */
+--sidebar-primary-foreground: {{self::hsl(color=base)}}; /* base */
+--sidebar-accent: {{self::hsl(color=base)}}; /* surface0 */
+--sidebar-accent-foreground: {{self::hsl(color=text)}}; /* text */
+--sidebar-border: {{self::hsl(color=surface1)}}; /* surface1 */
+--sidebar-ring: {{self::hsl(color=surface1)}}; /* surface1 */

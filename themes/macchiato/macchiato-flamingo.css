@@ -1,32 +1,34 @@
+
+
 --radius: 0.625rem;
---background: 232 23.404255509376526% 18.431372940540314%; /* base */
---foreground: 227 68.2539701461792% 87.64705657958984%; /* text */
---card: 232 23.404255509376526% 18.431372940540314%; /* base */
---card-foreground: 227 68.2539701461792% 87.64705657958984%; /* text */
---popover: 232 23.404255509376526% 18.431372940540314%; /* base */
---popover-foreground: 227 68.2539701461792% 87.64705657958984%; /* text */
---primary: 0 58.33333134651184% 85.88235378265381%; /* accent - Flamingo */
---primary-foreground: 232 23.404255509376526% 18.431372940540314%; /* base */
---secondary: 230 18.796992301940918% 26.07843279838562%; /* surface0 */
---secondary-foreground: 227 68.2539701461792% 87.64705657958984%; /* text */
---muted: 230 18.796992301940918% 26.07843279838562%; /* surface0 */
---muted-foreground: 228 39.21568691730499% 80.0000011920929%; /* subtext1 */
---accent: 230 18.796992301940918% 26.07843279838562%; /* surface0 */
---accent-foreground: 227 68.2539701461792% 87.64705657958984%; /* text */
---destructive: 351 73.9130437374115% 72.9411780834198%; /* red */
---border: 231 15.606936812400818% 33.92156958580017%; /* surface1 */
---input: 231 15.606936812400818% 33.92156958580017%; /* surface1 */
---ring: 227 68.2539701461792% 87.64705657958984%; /* text */
---chart-1: 351 73.9130437374115% 72.9411780834198%; /* red */
---chart-2: 171 46.83544337749481% 69.01960968971252%; /* teal */
---chart-3: 220 82.8125% 74.90196228027344%; /* blue */
---chart-4: 40 69.91150379180908% 77.84313559532166%; /* yellow */
---chart-5: 105 48.25174808502197% 71.96078300476074%; /* green */
---sidebar: 233 23.076923191547394% 15.294118225574493%; /* mantle */
---sidebar-foreground: 227 68.2539701461792% 87.64705657958984%; /* text */
---sidebar-primary: 0 58.33333134651184% 85.88235378265381%; /* accent - Flamingo */
---sidebar-primary-foreground: 232 23.404255509376526% 18.431372940540314%; /* base */
---sidebar-accent: 230 18.796992301940918% 26.07843279838562%; /* surface0 */
---sidebar-accent-foreground: 227 68.2539701461792% 87.64705657958984%; /* text */
---sidebar-border: 231 15.606936812400818% 33.92156958580017%; /* surface1 */
---sidebar-ring: 231 15.606936812400818% 33.92156958580017%; /* surface1 */
+--background: 232 23.40% 18.43%; /* base */
+--foreground: 227 68.25% 87.65%; /* text */
+--card: 232 23.40% 18.43%; /* base */
+--card-foreground: 227 68.25% 87.65%; /* text */
+--popover: 232 23.40% 18.43%; /* base */
+--popover-foreground: 227 68.25% 87.65%; /* text */
+--primary: 0 58.33% 85.88%; /* accent - Flamingo */
+--primary-foreground: 232 23.40% 18.43%; /* base */
+--secondary: 230 18.80% 26.08%; /* surface0 */
+--secondary-foreground: 227 68.25% 87.65%; /* text */
+--muted: 230 18.80% 26.08%; /* surface0 */
+--muted-foreground: 228 39.22% 80.00%; /* subtext1 */
+--accent: 230 18.80% 26.08%; /* surface0 */
+--accent-foreground: 227 68.25% 87.65%; /* text */
+--destructive: 351 73.91% 72.94%; /* red */
+--border: 231 15.61% 33.92%; /* surface1 */
+--input: 231 15.61% 33.92%; /* surface1 */
+--ring: 227 68.25% 87.65%; /* text */
+--chart-1:   333 0.21% 0.38%; /* red */
+--chart-2:   193 0.20% 0.38%; /* teal */
+--chart-3:   224 0.27% 0.41%; /* blue */
+--chart-4:   30 0.08% 0.42%; /* yellow */
+--chart-5:   139 0.11% 0.39%; /* green */
+--sidebar:   234 0.23% 0.17%; /* mantle */
+--sidebar-foreground: 227 68.25% 87.65%; /* text */
+--sidebar-primary: 0 58.33% 85.88%; /* accent - Flamingo */
+--sidebar-primary-foreground: 232 23.40% 18.43%; /* base */
+--sidebar-accent: 232 23.40% 18.43%; /* surface0 */
+--sidebar-accent-foreground: 227 68.25% 87.65%; /* text */
+--sidebar-border: 231 15.61% 33.92%; /* surface1 */
+--sidebar-ring: 231 15.61% 33.92%; /* surface1 */
