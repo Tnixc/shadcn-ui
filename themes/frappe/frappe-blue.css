@@ -19,12 +19,12 @@
 --border: 227 14.74% 37.25%; /* surface1 */
 --input: 227 14.74% 37.25%; /* surface1 */
 --ring: 227 70.15% 86.86%; /* text */
---chart-1:   341 18.43% 40.00%; /* red */
---chart-2:   191 18.43% 39.22%; /* teal */
---chart-3:   224 23.53% 43.53%; /* blue */
---chart-4:   31 9.41% 43.53%; /* yellow */
---chart-5:   126 9.41% 41.18%; /* green */
---sidebar:   229 18.82% 21.96%; /* mantle */
+--chart-1: 341 18.43% 40.00%; /* red */
+--chart-2: 191 18.43% 39.22%; /* teal */
+--chart-3: 224 23.53% 43.53%; /* blue */
+--chart-4: 31 9.41% 43.53%; /* yellow */
+--chart-5: 126 9.41% 41.18%; /* green */
+--sidebar: 229 18.82% 21.96%; /* mantle */
 --sidebar-foreground: 227 70.15% 86.86%; /* text */
 --sidebar-primary: 222 74.24% 74.12%; /* accent - Blue */
 --sidebar-primary-foreground: 229 18.64% 23.14%; /* base */
